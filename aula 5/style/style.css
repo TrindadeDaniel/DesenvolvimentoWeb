@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+html {
+    background-color: #124559; /* Cor de fundo quente */
+}
+
+header {
+    text-align: center;
+    color: #aec3b0;
+    padding: 20px;
+    background-color: #01161e; /* Cor quente para o cabeçalho */
+    border-bottom: 3px solid #598392;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+#formulario {
+    background-color: #eae0d5; /* Cor quente para o formulário */
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#formulario label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #124559;
+    font-weight: bold;
+}
+
+#formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #124559;
+    border-radius: 5px;
+}
+
+#formulario button {
+    background-color: #124559;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#formulario button:hover {
+    background-color: #1f0874;
+}
+
+#title {
+    margin-bottom: 10px; /* Adiciona espaçamento entre o título e o formulário */
+    font-weight: bold; /* Deixa o título em negrito */
+    font-size: 20px; /* Aumenta o tamanho da fonte do título */
+    text-align: left; /* Alinha o título à direita */
+}
+
+#icone {
+    text-align: left; /* Alinha o ícone à esquerda */
+    margin-bottom: 10px; /* Adiciona espaçamento entre o ícone e o formulário */
+}
